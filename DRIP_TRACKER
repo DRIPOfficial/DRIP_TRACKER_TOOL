@@ -31,7 +31,7 @@ def start_program():
   print("")
   print("Starting the program...")
   print("")
-  print ("blogs.mtdv.me/blog/posts/Instagram_me")
+  print ("https://r.mtdv.me/InstagramFreeCaps")
   print("Rick Roll Link")
   print("")
   print("")
@@ -47,14 +47,20 @@ def start_program():
   print("")
   # Add functionality for starting your program here
 def show_more_info():
+  print("")
+  print("Loading...")
+  print("")
   print("This is a tool that provides useful information and resources.")
   print("More features will be added in future versions. Stay tuned!")
 
 def show_how_to():
+  print("")
+  print("Loading...")
+  print("")
+  print("")
   print("Welcome to the tutorial!")
   print("1. Choose a number from the menu.")
   print("2. Follow the instructions provided for the chosen option.")
 
 if __name__ == "__main__":
   main_menu()
-
